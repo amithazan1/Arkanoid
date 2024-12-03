@@ -6,10 +6,11 @@ This is an Arkanoid-style game built in Java. The game features a paddle that ca
 
 Features
 Classic Arkanoid Gameplay: Control a paddle to bounce a ball and break blocks.
-Multiple Levels: The game features different levels with increasing difficulty.
+Multiple Levels: The game features 4 different levels with increasing difficulty.
 Graphics and Animation: Smooth game animations and visuals.
 Keyboard Controls: Use the keyboard to control the paddle and interact with the game.
-Game Flow: Includes a simple game flow that handles level progression and game over states.
+Game Flow: Includes a simple game flow that handles level progression, pause and game over states.
+
 Prerequisites
 Before running the game, make sure you have the following installed:
 
@@ -34,6 +35,7 @@ Left Arrow: Move the paddle left.
 Right Arrow: Move the paddle right.
 P: Pause
 Space: Resume the game
+
 Project Structure
 Here is a brief overview of the project structure:
 
