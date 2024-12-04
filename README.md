@@ -43,14 +43,12 @@ This will compile the project (if it hasn't been compiled already) and launch th
 ## Project Structure
 Here is a brief overview of the project structure:
 
-src/: Contains all the source code for the game.
+- src/: This directory contains all the core logic and components for the game.
+  - Ass6Main/: Entry point of the game where the main game loop is implemented.
+  - levels/: Definitions for the game levels, including layout and difficulty.
+  - animations/: The game backgrounds and Sprite objects
+  - ball/: The game ball and velocity classes
+  - collidableObjects/: Contains Block and Paddle classes
+    
 
-Ass6Game.java: Main class to run the game and manage the flow.
-Animations/: Contains classes related to animations (e.g., AnimationRunner).
-Levels/: Contains level designs and classes for different levels (e.g., Invasion, Asteroids).
-Mechanics/: Contains classes that handle game mechanics, such as GameFlow.
-bin/: Directory where the compiled .class files are placed (created by Ant).
 
-biuoop-1.4.jar: An external JAR file used by the project (e.g., for GUI or other utilities).
-
-build.xml: The Apache Ant build file that manages the compilation, cleaning, and running tasks.
